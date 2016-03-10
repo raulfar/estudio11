@@ -58,13 +58,14 @@ header {
     width:auto;
     float:left;
 }
+
 body {
     background-image: url(../imgs/4.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-section{
+section {
     width:640px;
     border-width: 2px;
     border-style: dotted;
@@ -74,7 +75,7 @@ section{
     background-color: rgba(238, 239, 238,0.8);
 }
 
-h1 {
+.wrapSection h1 {
     font-size: 30px;
     color:#ED1A39;
     margin-top: 20px;
@@ -84,12 +85,13 @@ h1 {
 
 }
 
-p {
+.wrapSection p {
     letter-spacing: 1px;
     margin-right: 20px;
     margin-bottom: 5px;
     margin-left: 20px;
 }
-p:last-child{
+
+.wrapSection p:last-child{
     margin-bottom: 20px;
 }
