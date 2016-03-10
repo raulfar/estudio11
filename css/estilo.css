@@ -11,6 +11,14 @@ header {
     overflow:hidden; /* Eliminamos errores de float */
 }
 
+#services {
+    display:none;
+}
+
+#contact {
+    display:none;
+}
+
 .menu {
     float:right;
 }
@@ -51,6 +59,39 @@ header {
     float:left;
 }
 
-p {
+body {
+    background-image: url(../imgs/4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section {
+    width:640px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #FDDDD3;
+    float: right;
+    margin: 10px;
+    background-color: rgba(238, 239, 238,0.8);
+}
+
+.wrapSection h1 {
+    font-size: 30px;
+    color:#ED1A39;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+
+}
+
+.wrapSection p {
     letter-spacing: 1px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.wrapSection p:last-child{
+    margin-bottom: 20px;
 }
