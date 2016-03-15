@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body {
+    font-family: Roboto,serif;
+}
+
 .menu {
     float: right;
 }
