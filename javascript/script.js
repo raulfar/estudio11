@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.menu-entry a').bind('click',function(event){
+	$('.menu-entry a').bind('click',function(event){
 
 		var $anchor = $(this);
 
