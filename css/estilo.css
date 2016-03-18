@@ -129,11 +129,9 @@ section {
         width: 91%;
         margin:0px;
         border-style: none;
-        background-color: rgba(238, 239, 238,0);
     }
 
     .text-wrapper:last-child {
-        background-color: rgba(238, 239, 238,0.8);
         border-width: 2px;
         border-style: dotted;
         border-color: #FDDDD3;
