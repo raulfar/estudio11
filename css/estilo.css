@@ -123,11 +123,7 @@ section {
 
 /* Smartphones (portrait)*/
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 496px){
-
-    body {
-        background-color: rgba(238, 239, 238,0.8);
-    }
+@media only screen and (max-device-width : 496px){
 
     .text-wrapper {
         width: 91%;
@@ -182,7 +178,7 @@ section {
 
 /* Tablets (portrait)*/
 
-@media only screen and (min-device-width : 640px) and (max-device-width : 768px){
+@media only screen and (min-device-width : 496px) and (max-device-width : 768px){
 
     .text-wrapper {
         width: 95%;
@@ -220,9 +216,8 @@ section {
     }
 
     .background-image {
-        width: 300%;
+        width: 100%;
         height: 100%;
-        margin-left: -100%; /*Elimino el espacio sobrante*/
     }
 
     .text-wrapper {
