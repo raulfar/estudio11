@@ -122,13 +122,18 @@ section {
 }
 
 /* Smartphones (portrait)*/
+/*Los dispositivos móviles son en principio de mínimo 320px, creo que no tiene 
+sentido poner de menos salvo crear otro breakpoint. Si no ponemos un mínimo no se aplica bien.*/
 
-@media only screen and (max-device-width : 496px){
+
+@media screen and (min-device-width : 240px) and (max-device-width : 495px){
 
     .text-wrapper {
         width: 91%;
         margin:0px;
         border-style: none;
+        min-width: 224px;
+        max-width: 396px;
     }
 
     .text-wrapper:last-child {
@@ -139,6 +144,7 @@ section {
 
     .menu {
         width: 100%;
+        min-width: 320px;
     }
 
     .menu ul {
@@ -148,6 +154,7 @@ section {
     .menu-entry a {
         padding: 16px 15px;
     }
+
     .menu-entry a:hover {
         padding: 15px 13px;
     }
@@ -176,7 +183,7 @@ section {
 
 /* Tablets (portrait)*/
 
-@media only screen and (min-device-width : 496px) and (max-device-width : 768px){
+@media screen and (min-device-width : 496px) and (max-device-width : 768px){
 
     .text-wrapper {
         width: 95%;
@@ -236,4 +243,18 @@ section {
     .section-3 .text-wrapper {
         right: -198.5%;
     }
+}
+
+/*Apple*/
+
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+/*IE10*/
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
 }
