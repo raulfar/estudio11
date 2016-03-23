@@ -129,11 +129,8 @@ sentido poner de menos salvo crear otro breakpoint. Si no ponemos un mínimo no 
 @media screen and (min-device-width : 240px) and (max-device-width : 495px){
     /*Para solucionar el prolema de que el header no se quede en position fixed*/
     header {
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-        -ms-backface-visibility:hidden;
-        -o-backface-visibility:hidden;
-        backface-visibility: hidden;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
     }
 
     .text-wrapper {
