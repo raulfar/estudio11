@@ -130,9 +130,6 @@ sentido poner de menos salvo crear otro breakpoint. Si no ponemos un mínimo no 
     /*Para solucionar el prolema de que el header no se quede en position fixed*/
     header {
         -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-        -ms-backface-visibility:hidden;
-        -o-backface-visibility:hidden;
         backface-visibility: hidden;
     }
 
