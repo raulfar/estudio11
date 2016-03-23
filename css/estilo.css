@@ -130,6 +130,8 @@ sentido poner de menos salvo crear otro breakpoint. Si no ponemos un mínimo no 
 
     header {
         position: fixed;
+        top: 0;
+        left: 0;
     }
 
     .text-wrapper {
