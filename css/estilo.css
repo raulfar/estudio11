@@ -185,6 +185,10 @@ sentido poner de menos salvo crear otro breakpoint. Si no ponemos un mínimo no 
 
 @media screen and (min-device-width : 496px) and (max-device-width : 768px){
 
+    header {
+        position: fixed;
+    }
+
     .text-wrapper {
         width: 95%;
         margin:0px;
