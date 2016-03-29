@@ -7,6 +7,10 @@ body {
     font-family: Roboto,serif;
 }
 
+iframe {
+    border:0px;
+}
+
 .menu {
     float: right;
 }
@@ -248,18 +252,4 @@ sentido poner de menos salvo crear otro breakpoint. Si no ponemos un mínimo no 
     .section-3 .text-wrapper {
         right: -198.5%;
     }
-}
-
-/*Apple*/
-
-@viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
-
-/*IE10*/
-
-@-ms-viewport{
-    width: extend-to-zoom;
-    zoom: 1.0;
 }
