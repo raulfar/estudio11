@@ -7,6 +7,10 @@ body {
     font-family: Roboto,serif;
 }
 
+iframe {
+    border:0px;
+}
+
 .menu {
     float: right;
 }
@@ -127,6 +131,11 @@ sentido poner de menos salvo crear otro breakpoint. Si no ponemos un mínimo no 
 
 
 @media screen and (min-device-width : 240px) and (max-device-width : 495px){
+    /*Para solucionar el prolema de que el header no se quede en position fixed*/
+    header {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
 
     .text-wrapper {
         width: 91%;
@@ -243,18 +252,4 @@ sentido poner de menos salvo crear otro breakpoint. Si no ponemos un mínimo no 
     .section-3 .text-wrapper {
         right: -198.5%;
     }
-}
-
-/*Apple*/
-
-@viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
-
-/*IE10*/
-
-@-ms-viewport{
-    width: extend-to-zoom;
-    zoom: 1.0;
 }
