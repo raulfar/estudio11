@@ -126,17 +126,15 @@ section {
 }
 
 /* Smartphones (portrait)*/
-/*Los dispositivos móviles son en principio de mínimo 320px, creo que no tiene 
-sentido poner de menos salvo crear otro breakpoint. Si no ponemos un mínimo no se aplica bien.*/
-
 
 @media screen and (min-device-width : 240px) and (max-device-width : 495px){
-    /*Para solucionar el prolema de que el header no se quede en position fixed*/
-    header {
-        -webkit-transform: translate3d(0,0,0);
-        transform: translate3d(0,0,0);
+    .img-wrap {
+        float: left;
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        z-index:-20; 
     }
-
     .text-wrapper {
         width: 91%;
         margin:0px;
@@ -177,7 +175,8 @@ sentido poner de menos salvo crear otro breakpoint. Si no ponemos un mínimo no 
     }
 
     .background-image {
-        display: none;
+        height: 100%;
+        width: auto;
     }
 
     .text-wrapper p {
