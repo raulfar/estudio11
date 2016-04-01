@@ -11,7 +11,7 @@ iframe {
     border:0px;
 }
 
-.img-wrap {
+.background-wrapper {
     float: left;
     display: inline-block;
     width: 100%;
@@ -54,9 +54,17 @@ iframe {
 }
 
 .logo {
+    background-image: url(../imgs/logo.svg);
     height: 56px;
     width: auto;
     float: left;
+    border: none;
+    -webkit-filter: brightness(24);
+    filter: brightness(24);
+}
+
+.logo-min {
+    display:none;
 }
 
 header {
@@ -70,9 +78,9 @@ header {
 }
 
 section {
-    width: 33.33%;
+    width: calc(100% / 3);
     display: inline-block;
-    margin-right: -5px;
+    /*margin-right: -4px;*/
     padding-top: 60px;/*Soluciona el problema del padding en el menú*/
 }
 
@@ -104,14 +112,25 @@ section {
     letter-spacing: 1px;
 }
 
-.background-image {
-    /*height: 100%;*/
+.background {
+    height: 100vh;
     float: left;
     display: inline-block;
-    height: 100%;
-    width: auto;
+    min-width: 100%;
     z-index: -1;
 }
+
+.video {
+    height: 100vh;
+    min-width: 100%;
+}
+
+/*.background-video {
+    height: auto;
+    width: 100%;
+    float: left;
+    display: inline-block;
+}*/
 
 .section-3{
     float: right;/*esta'simple línea me soluciona el problema del posicionamiento del mapa*/
@@ -137,13 +156,42 @@ section {
 /* Smartphones (portrait)*/
 
 @media screen and (min-device-width : 240px) and (max-device-width : 495px){
-    .img-wrap {
+
+
+   /* .background-video {
+        position: absolute;
+        float: left;
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        z-index:-20;
+
+    }*/
+    .logo {
+        display: none;
+    }
+
+    .logo-min {
+        display: block;
+        height: 64px;
+        -webkit-filter: brightness(24);
+        filter: brightness(24);
+    }
+
+    .background-wrapper {
+        position: absolute;
         float: left;
         display: inline-block;
         width: 100%;
         overflow: hidden;
         z-index:-20; 
     }
+
+    .background {
+        height: 100%;
+        width: auto;
+    }
+
     .text-wrapper {
         width: 91%;
         margin:0px;
@@ -183,11 +231,6 @@ section {
         margin-top: 56px;
     }
 
-    .background-image {
-        height: 100%;
-        width: auto;
-    }
-
     .text-wrapper p {
         letter-spacing: 0px;
     }
@@ -201,13 +244,15 @@ section {
 /* Tablets (portrait)*/
 
 @media screen and (min-device-width : 496px) and (max-device-width : 768px){
-    .img-wrap {
+
+    .background-wrapper {
         float: left;
         display: inline-block;
         width: 100%;
         overflow: hidden;
         z-index:-20; 
     }
+
     .text-wrapper {
         width: 95%;
         margin:0px;
