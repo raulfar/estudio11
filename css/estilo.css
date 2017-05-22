@@ -80,7 +80,7 @@ section {
     width: calc(100% / 3);
     display: inline-block;
     /*margin-right: -4px;*/
-    padding-top: 60px;/*Soluciona el problema del padding en el menú*/
+    padding-top: 58px;/*Soluciona el problema del padding en el menú*/
 }
 
 .container {
