@@ -99,6 +99,7 @@ section {
     background-color: rgba(238, 239, 238,0.8);
     position: absolute;
     z-index: 4;
+    font-size: 18px;
 }
 
 .text-wrapper h1 {
