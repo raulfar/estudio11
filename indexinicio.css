@@ -1,17 +1,16 @@
 body{
-    background-color: /*lightblue;*/
+    background-color: red;
 }
-
 @media screen and (min-width: 480px) {
     body {
-       /* background-color: lightgreen;*/
+        background-color:blue;
     }
 }
 
 
 @media screen and (min-width: 767px){
 	body{
-		/*background:blue;*/	
+		background-color:blue;
 	}
 
 }
@@ -19,70 +18,34 @@ body{
 /* ---------------------------------------------------------*/
 @media screen and (min-width: 950px) {
 
-	body{
+	body
+    {
 		background:white;	
 		overflow-x: hidden;
-      
-		}
-.pagina{
+	}
+.pagina
+{
    
     max-width:100%;
     margin: 0 auto;
 }	
 
-.imagenes{
+#imagenes{
+    width: 100%;
+    height: 300em;
 	margin-top: 50px;
-	height: 46em;
-	width: 100%;
     position: relative;
     text-align: center;
-    overflow: hidden;
-    
-}
+    overflow: hidden;   
+} 
+img.image  {
+     width:50%;
+     height:700px;
+    margin-left:0px;
 
-
-.imagenizquierda{
-     width: 50%;;
-    height: 100%;
-     position: relative;
-    float: left;
-    min-height: 300px;
-  background-size: cover;
-}
-
-
-.imagenderecha{
-   
-    width: 50%;
-    height: 100%;
-     position: relative;
-    min-height: 300px;
- 
-    float: right;
-
-    background-size: cover;
 
 }
 
-.menu1{
-     margin-top: 0px;
-	height: 25px;
-;
-}
-.eleccion1{
-	color: white;
-	font-size: 30px;
-	float: left;
-	margin-left: 20%;
-    margin-top: 10px;
-}
-.eleccion2{
-	color: white;
-	font-size: 30px;
-	float: right;
-	margin-right:20%;
-    margin-top: 10px;
-}
 /* parte top ----------------------------------------------*/
 
 .menu {
@@ -131,19 +94,4 @@ body{
 
 .logo-min{
     margin-top: 13px;
-}
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
+}}
