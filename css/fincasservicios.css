@@ -1,0 +1,88 @@
+@import url("comunindex.css");
+
+#menu li a{
+    color:black;
+}
+
+.contenedor11{
+    text-align:left;
+    vertical-align: top;
+    width:80%;
+    margin-top:3vh;
+}
+
+
+.c11iz{
+    margin-left:0vw;
+}
+#imagen1{
+    background-image:url("../imgs/fincasred.jpg");
+        background-repeat: no-repeat;
+}
+#imagen2{
+    background-image:url("../imgs/2.jpg");
+        background-repeat: no-repeat;
+}
+
+.rotulo{
+   background-color:rgba(255,255,255,0.8);
+   font-size:1.8em;
+   color:#ed1a39;
+   margin-bottom:2vh;
+   padding-left:1em;
+   padding-right:1em;
+   padding-top:0.4em;
+   padding-bottom:0.4em;
+}
+#es11{
+    
+   vertical-align: middle;
+    font-size:1.7em;
+}
+.super11{
+    font-size:0.3em;
+    top:-1.5em;
+    color:gray;
+}
+.parraforotulo{
+    font-size:0.3em;
+    color:black;
+    display:none;
+}
+.rotuloizquierda{
+    max-width:7.5em;
+    
+}
+.rotuloderecha{
+    max-width:10em;
+    
+}
+.rotuloderecha p{
+    text-align:left;
+}
+@media screen and (max-width: 700px){
+    .rotuloderecha{
+        padding-left:0.5em;
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .contenedor11{
+        overflow:auto;
+    }
+}
+@media screen and (min-width: 700px){
+    .contenedor11{
+        width:auto;
+        
+    }
+    .rotuloderecha{
+        margin-left: 5em;
+        padding-top:0em;
+        padding-bottom:0.1em;
+        min-width:10em;
+        text-align:center;
+    }
+    
+}
+

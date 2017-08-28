@@ -1,0 +1,52 @@
+@import url("comunindex.css");
+
+header{
+    display:inline;
+}
+#celda_header{
+
+    
+    padding:0px;
+    margin:0px;
+    height:1em;
+    text-align:center;
+    
+}
+#celda_header div{
+    text-align:left;
+    background-color:#ed1a39;
+    width:96%;
+    display:inline-block;
+}
+#imagen33{
+    background-image:url("../imgs/4.jpg");
+}
+table{
+    padding:0px;
+    margin:0px;
+    margin-top: -4px;
+}
+
+.contenedor16{
+   margin-top: 15%;
+    font-size:13vmin;
+
+}
+
+#rotulo_e11_1{
+    top: 0.18em; 
+}
+#rotulo_gej{
+    margin-top:0px;
+    padding-top:0px;
+    font-weight:bold;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color:white;
+    font-size:0.28em;
+    margin-bottom:1em;
+}
+
+#menu li a{
+    color:white;
+}
+
