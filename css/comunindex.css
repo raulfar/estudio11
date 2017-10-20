@@ -74,6 +74,16 @@ body
     background-image:url("../imgs/2.jpg");
     background-size: 100%;
 }
+#imagen30{
+    display:inline-block;
+    width:106%;
+    height:80vh;
+    background-image:url("../imgs/SERVICIOSE.jpg");
+    background-size: 100%;
+}
+
+
+
 .el_menu{
     display:inline-block;
 }
@@ -103,6 +113,9 @@ body
         min-height:100vh;
     }
     #imagen22{
+        min-height:100vh;
+    }
+     #imagen30{
         min-height:100vh;
     }
     #menu{
