@@ -84,6 +84,12 @@ header{
 .rotuloderecha p{
     text-align:left;
 }
+/*@media screen and (max-device-width: 495px) and (min-device-width: 240px){
+
+#imagen22 {
+    height: 100%;
+    width: auto;
+}}*/
 @media screen and (max-width: 700px){
     .rotuloderecha{
         padding-left:0.5em;
@@ -97,7 +103,7 @@ header{
 }
 @media screen and (min-width: 700px){
     .contenedor11{
-        width:auto;
+        width:20em;
         
     }
     .rotuloderecha{
